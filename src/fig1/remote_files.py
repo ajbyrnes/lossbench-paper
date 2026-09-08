@@ -5,10 +5,13 @@ without downloading them, using atlasopenmagic (file discovery) + uproot
 
 import os
 import random
+import sys
 import tempfile
+from pathlib import Path
 
 import certifi
 
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from constants import (
     ATLASOPENMAGIC_DATASET_KEY,
     ATLASOPENMAGIC_PROTOCOL,

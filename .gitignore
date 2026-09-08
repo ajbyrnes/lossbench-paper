@@ -9,8 +9,8 @@ wheels/
 # Virtual environments
 .venv
 
-# Source data
-data/
+# Source data (ROOT files are too large for git; csv/jsonl/log outputs are fine)
+*.root
 
 # For pulling metadata
 certs/

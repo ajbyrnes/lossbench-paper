@@ -26,7 +26,7 @@ BYTES_PER_GB = 1e9
 
 
 def load_category_totals():
-    df = pd.read_csv(FIG_DIR / "branch_metadata.csv")
+    df = pd.read_csv(REPO_ROOT / "data" / "branch_metadata.csv")
     df = df[df["file"].str.contains("DAOD")]  # jets/PHYSLITE rows only
     totals = df.groupby("branch_category")[["compressed_bytes", "uncompressed_bytes"]].sum()
     totals["size_reduction_pct"] = (1 - totals["compressed_bytes"] / totals["uncompressed_bytes"]) * 100

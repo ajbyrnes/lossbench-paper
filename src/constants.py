@@ -1,6 +1,6 @@
 from pathlib import Path
 
-REPO_ROOT = Path(__file__).resolve().parent.parent.parent
+REPO_ROOT = Path(__file__).resolve().parent.parent
 
 JETS_FILENAME = str(REPO_ROOT / "data" / "DAOD_PHYSLITE.37019878._000009.pool.root.1")
 MUONS_FILENAME = str(REPO_ROOT / "data" / "ODEO_FEB2025_v0_2muons_data15_periodD.2muons.root")

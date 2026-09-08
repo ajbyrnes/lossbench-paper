@@ -1,13 +1,15 @@
 import csv
+import sys
 import time
 from pathlib import Path
 
 import uproot
 
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from constants import MUONS_FILENAME, MUONS_TREENAME, JETS_TREENAME
 from remote_files import configure_ssl_for_cern, sample_physlite_urls
 
-OUTPUT_CSV = Path(__file__).resolve().parent / "branch_metadata.csv"
+OUTPUT_CSV = Path(__file__).resolve().parent.parent.parent / "data" / "branch_metadata.csv"
 
 # eospublic rate-limits bursts of requests; back off and retry on transient
 # failures (429s, dropped connections) instead of aborting the whole sample.
