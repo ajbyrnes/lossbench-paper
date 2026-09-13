@@ -1,0 +1,8724 @@
+{
+  "inputFile": "/home/ajbyrnes/lossbench-paper/data/ODEO_FEB2025_v0_2muons_data15_periodD.2muons.root",
+  "tree": "analysis",
+  "branches": [
+    "lep_pt",
+    "lep_eta",
+    "lep_phi",
+    "lep_e"
+  ],
+  "tests": [
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "0",
+        "absErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "0",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "1",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "2",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "100"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "10"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "1"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.1"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.01"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.001"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "0.0001"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-05"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "sz3",
+      "options": {
+        "cmprAlgo": "3",
+        "errorBoundMode": "1",
+        "relErrorBound": "1e-06"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    }
+  ]
+}

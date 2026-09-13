@@ -1,0 +1,1112 @@
+{
+  "inputFile": "/home/ajbyrnes/lossbench-paper/data/ODEO_FEB2025_v0_2muons_data15_periodD.2muons.root",
+  "tree": "analysis",
+  "branches": [
+    "lep_pt",
+    "lep_eta",
+    "lep_phi",
+    "lep_e"
+  ],
+  "tests": [
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "2"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "2"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "2"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "2"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "2"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "2"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "2"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "2"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "2"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "2"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "2"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "4"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "4"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "4"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "4"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "4"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "4"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "4"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "4"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "4"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "4"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "4"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "8"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "8"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "8"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "8"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "8"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "8"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "8"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "8"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "8"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "8"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "8"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "10"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "10"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "10"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "10"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "10"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "10"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "10"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "10"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "10"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "10"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "10"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "12"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "12"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "12"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "12"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "12"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "12"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "12"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "12"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "12"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "12"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "12"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "14"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "14"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "14"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "14"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "14"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "14"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "14"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "14"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "14"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "14"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "14"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "16"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "16"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "16"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "16"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "16"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "16"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "16"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "16"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "16"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "16"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "16"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "18"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "18"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "18"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "18"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "18"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "18"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "18"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "18"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "18"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "18"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "18"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "20"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "20"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "20"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "20"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "20"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "20"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "20"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "20"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "20"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "20"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "20"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "22"
+      },
+      "normalize": false,
+      "chunkSize": 16384,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "22"
+      },
+      "normalize": false,
+      "chunkSize": 32768,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "22"
+      },
+      "normalize": false,
+      "chunkSize": 65536,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "22"
+      },
+      "normalize": false,
+      "chunkSize": 131072,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "22"
+      },
+      "normalize": false,
+      "chunkSize": 262144,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "22"
+      },
+      "normalize": false,
+      "chunkSize": 524288,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "22"
+      },
+      "normalize": false,
+      "chunkSize": 1048576,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "22"
+      },
+      "normalize": false,
+      "chunkSize": 2097152,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "22"
+      },
+      "normalize": false,
+      "chunkSize": 4194304,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "22"
+      },
+      "normalize": false,
+      "chunkSize": 8388608,
+      "iterations": 5
+    },
+    {
+      "compressor": "zstd-trunc",
+      "options": {
+        "compressionLevel": "5",
+        "truncBits": "22"
+      },
+      "normalize": false,
+      "chunkSize": 16777216,
+      "iterations": 5
+    }
+  ]
+}

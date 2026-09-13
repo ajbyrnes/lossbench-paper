@@ -11,6 +11,7 @@ wheels/
 
 # Source data (ROOT files are too large for git; csv/jsonl/log outputs are fine)
 *.root
+*.root.1
 
 # For pulling metadata
 certs/
